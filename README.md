@@ -16,7 +16,7 @@ Follow these instructions to build and run the project.
 $ https://github.com/faiziiii05/Bootstrap-Projects
 ```
 
-2. Navigate to the project folder that word best for you
+2. Navigate to the project folder that work best for you
 
 3. Enjoy
 
@@ -29,13 +29,9 @@ $ https://github.com/faiziiii05/Bootstrap-Projects
 
 1. [Registration](/Registration/)
 
-<img src="/screenshots/Registration/mobile_signin.PNG" alt="Mobile Sign in" width="300" height="300"/>
+<img src="/screenshots/Registration/mobile_signin.PNG" alt="Mobile Sign in" width="300" height="300"/> <img src="/screenshots/Registration/desktop_signin.PNG" alt="Desktop Sign in" width="300" height="300"/>
 
-<img src="/screenshots/Registration/desktop_signin.PNG" alt="Desktop Sign in" width="300" height="300"/>
-
-<img src="/screenshots/Registration/mobile_signup.PNG" alt="Mobile Sign up" width="300" height="300"/>
-
-<img src="/screenshots/Registration/desktop_signup.PNG" alt="Desktop Sign up" width="300" height="300"/>
+<img src="/screenshots/Registration/mobile_signup.PNG" alt="Mobile Sign up" width="300" height="300"/> <img src="/screenshots/Registration/desktop_signup.PNG" alt="Desktop Sign up" width="300" height="300"/>
 
 <img src="/screenshots/Registration/forgot_password_model.PNG" alt="Forgot Password Model" width="300" height="300"/>
 
