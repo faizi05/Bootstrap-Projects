@@ -1,0 +1,44 @@
+$mediumScreen: 991.98px;
+
+.container-fluid {
+  .row {
+    .col-md-4 {
+      transition: 0.5s;
+      &:hover {
+        transform: scaleX(-1);
+      }
+    }
+    .col-md-7 {
+      .card {
+        .card-footer {
+          .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            a {
+              border: 0.2rem solid #00b0ff;
+              border-radius: 50%;
+              line-height: 0;
+              padding: 0.2rem;
+              transition: 0.3s;
+              &:hover {
+                transform: scale(1.2, 1.2);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mediumScreen) {
+  .row {
+    .col-md-4 {
+      display: none;
+    }
+    .card {
+      width: 100% !important;
+    }
+  }
+}

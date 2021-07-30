@@ -1,0 +1,33 @@
+
+.container-fluid .row .col-md-4 {
+  transition: 0.5s;
+}
+.container-fluid .row .col-md-4:hover {
+  transform: scaleX(-1);
+}
+.container-fluid .row .col-md-7 .card .card-footer .social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container-fluid .row .col-md-7 .card .card-footer .social-icons a {
+  border: 0.2rem solid #00b0ff;
+  border-radius: 50%;
+  line-height: 0;
+  padding: 0.2rem;
+  transition: 0.3s;
+}
+.container-fluid .row .col-md-7 .card .card-footer .social-icons a:hover {
+  transform: scale(1.2, 1.2);
+}
+
+@media screen and (max-width: 991.98px) {
+  .row .col-md-4 {
+    display: none;
+  }
+  .row .card {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
