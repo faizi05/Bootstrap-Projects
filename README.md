@@ -2,7 +2,7 @@
 
 Welcome to the Bootstrap-Projects repository.
 
-In this repository a collection of bootstrap projects, table of content table of contents in order for you to navigate to the sections that matter the most to you and screenshot section are included.
+In this repository a collection of bootstrap projects, table of contents in order for you to navigate to the sections that matter the most to you and screenshot section are included.
 
 `Best of Luck`
 
