@@ -29,9 +29,9 @@ $ https://github.com/faiziiii05/Bootstrap-Projects
 
 1. [Registration](/Registration/)
 
-<img src="/screenshots/Registration/mobile_signin.PNG" alt="Mobile Sign in" width="300" height="400"/> <img src="/screenshots/Registration/desktop_signin.PNG" alt="Desktop Sign in" width="800" height="400"/> 
-<img src="/screenshots/Registration/mobile_signup.PNG" alt="Mobile Sign up" width="300" height="400"/>  <img src="/screenshots/Registration/desktop_signup.PNG" alt="Desktop Sign up" width="800" height="400"/> 
-<img src="/screenshots/Registration/forgot_password_model.PNG" alt="Forgot Password Model" width="800" height="400"/>
+<img src="/screenshots/Registration/mobile_signin.PNG" alt="Mobile Sign in" width="300" height="400"/> <img src="/screenshots/Registration/desktop_signin.PNG" alt="Desktop Sign in" width="700" height="400"/> 
+<img src="/screenshots/Registration/mobile_signup.PNG" alt="Mobile Sign up" width="300" height="400"/>  <img src="/screenshots/Registration/desktop_signup.PNG" alt="Desktop Sign up" width="700" height="400"/> 
+<img src="/screenshots/Registration/forgot_password_model.PNG" alt="Forgot Password Model" width="700" height="400"/>
 
 # Contributing
 
