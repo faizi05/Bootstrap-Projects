@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-projects",
+  "version": "1.0.0",
+  "description": "In this repository, a collection of bootstrap projects are included from beginner to expert level",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faiziiii05/Bootstrap-Projects.git"
+  },
+  "keywords": [
+    "html",
+    "bootstrap",
+    "css",
+    "javascript",
+    "frontend",
+    "web-development"
+  ],
+  "author": "Muhammad Faiz Shahid (faiziiii05)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faiziiii05/Bootstrap-Projects/issues"
+  },
+  "homepage": "https://github.com/faiziiii05/Bootstrap-Projects#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "boxicons": "^2.0.9"
+  }
+}

@@ -22,22 +22,20 @@ $ https://github.com/faiziiii05/Bootstrap-Projects
 
 # Table of Contents
 
-1. [Registration](/Registration/)
+1. [Registration](/1_Registration/)
+
    - This project contains a responsive sign-in and sign-up page using Bootstrap 5 and SCSS.
+
+2. [Sidebar_and_UserProfile](/2_Sidebar_and_user_profile/)
+   - This project contains a responsive sidebar and a user profile page using bootstrap and sass. In non-editing mode all the fields are disabled. The user will be able to edit all the fields as soon as the user presses the edit profile button. some bootstrap variables like `$primary` and `$dark` are customized so we can say that it's a customized bootstrap project ;)
 
 # Screenshots
 
 1. [Registration](/Registration/)
 
-<img src="/Screenshots/Registration/mobile_signin.png" alt="Mobile Sign in" width="300" height="300"/>
+   - ![Registration](/screenshots/1_Registration/1_registration.png)
 
-<img src="/Screenshots/Registration/desktop_signin.png" alt="Desktop Sign in" width="300" height="300"/>
-
-<img src="/Screenshots/Registration/mobile_signup.png" alt="Mobile Sign up" width="300" height="300"/>
-
-<img src="/Screenshots/Registration/desktop_signup.png" alt="Desktop Sign up" width="300" height="300"/>
-
-<img src="/Screenshots/Registration/forgot_password_model.png" alt="Forgot Password Model" width="300" height="300"/>
+2. [Sidebar_and_UserProfile](/2_Sidebar_and_user_profile/)
 
 # Contributing
 
