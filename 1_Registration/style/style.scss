@@ -1,0 +1,51 @@
+$mediumScreen: 991.98px;
+
+.container-fluid {
+  .row {
+    .col-md-4 {
+      transition: 0.5s;
+      &:hover {
+        transform: scaleX(-1);
+      }
+    }
+    .col-md-7 {
+      .card {
+        .card-footer {
+          .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            a {
+              border: 0.2rem solid #00b0ff;
+              border-radius: 50%;
+              transition: 0.3s;
+              padding: 0.2rem;
+              position: relative;
+              text-decoration: none;
+              line-height: 0;
+
+              &:hover {
+                transform: scale(1.1, 1.1);
+              }
+              i {
+                font-size: 1.5rem;
+                color: #00b0ff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mediumScreen) {
+  .row {
+    .col-md-4 {
+      display: none;
+    }
+    .card {
+      width: 100% !important;
+    }
+  }
+}

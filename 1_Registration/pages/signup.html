@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <!-- Bootstrap Link -->
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Cusrom CSS -->
+    <link rel="stylesheet" type="text/css" href="/1_Registration/style/style.css" />
+
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="/node_modules/boxicons/css/boxicons.min.css">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row vh-100 justify-content-center align-items-center px-5">
+        <!-- Img -->
+        <div class="col-md-4  ms-5">
+          <img src="/1_Registration/assets/svg/signup.svg" alt="signin svg" class="img-fluid" />
+        </div>
+
+        <!-- Form -->
+        <div class="col-md-7">
+          <div class="card w-50 mx-auto shadow" id="myCard">
+            <!-- Sign up Text -->
+            <div class="card-header bg-info text-white text-center">
+              <strong>Sign up</strong>
+            </div>
+            <!-- Card Body -->
+            <div class="card-body">
+              <form>
+                <!-- Name Field -->
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="Please Enter Your Name"
+                    name="name" placeholder="Name" required />
+                </div>
+                <!-- Email Field -->
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="Please Enter Email" name="email"
+                    placeholder="email@domain.com" required />
+                </div>
+                <!-- Password Field -->
+                <div class="mb-4">
+                  <label for="password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Password"
+                    required />
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-info text-white fw-bold w-100">
+                  Sign up
+                </button>
+              </form>
+            </div>
+            <!-- Card Footer -->
+            <div class="card-footer mt-2">
+              <p class="text-center mt-2">Or Sign up With</p>
+              <!-- Social Icons -->
+              <div class="social-icons mb-2">
+                <!-- Google Icon Link -->
+                <a href="#">
+                  <i class='bx bxl-google'></i>
+                </a>
+                <!-- Facebook Icon Link -->
+                <a href="#">
+                  <i class="bx bxl-facebook"></i>
+                </a>
+                <!-- Twitter Icon Link -->
+                <a href="#">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+                <!-- Phone Icon Link -->
+                <a href="#">
+                  <i class="bx bxs-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Already have account login -->
+          <p class="text-center mt-3">
+            Already have account?
+            <a href="/1_Registration/pages/signin.html">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+
+</html>
