@@ -37,6 +37,8 @@ $ https://github.com/faiziiii05/Bootstrap-Projects
 
 2. [Sidebar_and_UserProfile](/2_Sidebar_and_user_profile/)
 
+   - ![Sidebar_and_user_profile](/screenshots/2_Sidebar_and_user_profile/2_Sidebar_and_user_profile.png)
+
 # Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
