@@ -1,0 +1,49 @@
+@use 'custom' as var;
+// Main Wrapper that contain sidebar and content
+#wrapper {
+  display: flex;
+  min-height: 100vh;
+  // Class to add when toggle btn clicked
+  .resize-sidebar {
+    width: 2.5rem !important;
+    @include var.media-breakpoint-down(md) {
+      width: 13rem !important;
+      z-index: 10000;
+    }
+  }
+  // Class to add when toggle btn clicked
+  .resize-content {
+    left: 2.5rem !important;
+    width: calc(100% - 2.5rem) !important;
+  }
+  
+  //   Sidebar Layout Style
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 13rem;
+
+    //  Media Query
+    // Bootstrap mixin
+    @include var.media-breakpoint-down(md) {
+      width: 2.5rem;
+    }
+  }
+  //   Main Content Layout Style
+  #content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    left: 13rem;
+    width: calc(100% - 13rem);
+    //  Media Query
+    // Bootstrap mixin
+    @include var.media-breakpoint-down(md) {
+      left: 2.5rem;
+      width: calc(100% - 2.5rem);
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@use 'custom'; // Import Bootstrap with some customize variables
+@use 'layout'; // Layput style
+
+@use 'sections/sidebar'; // Sidebar styles
+@use 'sections/profile'; // Profile page styles
+@use 'sections/edit_profile'; // Edit profile page styles
+
+//  Some global style
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

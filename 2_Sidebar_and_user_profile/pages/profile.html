@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile</title>
+        <!-- Box Icons -->
+        <link rel="stylesheet" href="../../node_modules/boxicons/css/boxicons.min.css">
+        <link rel="stylesheet" href="../assets/css/style.css" />
+    </head>
+
+    <body>
+        <!-- Main Wrapper -->
+        <div id="wrapper">
+            <!-- ============================== -->
+            <!-- Sidebar -->
+            <!-- ============================== -->
+            <div id="sidebar" class="bg-dark">
+                <!-- Sidebar Logo -->
+                <div class="logo">
+                    <!-- Link to home page -->
+                    <a href="#" id="web_logo">
+                        <img src="../assets/svgs/logo.svg" alt="Man">
+                    </a>
+                    <!-- Sidebar toggle btn -->
+                    <div> <i class='bx bx-menu' id="toggle_btn"></i></div>
+                </div>
+
+                <!-- Nav items -->
+                <nav class="c-nav-items">
+                    <!-- Dashborad Nav item -->
+                    <a href="#">
+                        <i class="bx bxs-dashboard"></i>
+                        Dashborad
+                    </a>
+
+
+                    <!-- Manage Emplyees Nav Item -->
+                    <a href="">
+                        <i class="bx bxs-calendar"></i>
+                        Manage Employees
+                    </a>
+
+
+                    <!-- Profile Nav Item -->
+                    <a href="profile.html" class="nav-active">
+                        <i class="bx bxs-user"></i>
+                        Profile
+                    </a>
+
+
+                    <!-- Setting Nav Item -->
+                    <a href="#">
+                        <i class="bx bxs-cog"></i>
+                        Settings
+                    </a>
+
+
+                    <!-- Signout Nav Item -->
+                    <a href="#">
+                        <i class="bx bxs-log-out"></i>
+                        Sign out
+                    </a>
+
+                    <!-- Github Link -->
+                    <a href="https://github.com/faiziiii05/" id="github_link"
+                        class="position-absolute bottom-0 bg-dark border-top w-100">
+                        <i class="bx bxs-message"></i>
+                        Github
+                    </a>
+                </nav>
+            </div>
+            <!-- ============SIDE BAR END================= -->
+
+            <!-- ============================== -->
+            <!-- Content -->
+            <!-- ============================== -->
+            <div id="content">
+                <!-- Navbar Card -->
+                <div id="c_top_navbar" class="card shadow-sm sticky-top">
+                    <!-- Card Body -->
+                    <div class="card-body d-flex flex-row">
+
+                        <!-- Search Form -->
+                        <form class="d-flex flex-grow-1">
+                            <input class="form-control me-2 w-50" type="search" placeholder="Search..."
+                                aria-label="Search">
+                            <!-- Submit Btn -->
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+
+                        <!-- Profile Menu -->
+                        <div id="profile_dropdown" class="dropdown">
+                            <button class="btn rounded-circle shadow-sm" data-bs-toggle="dropdown" aria-expanded="false"
+                                id="profile_dropdown_menu">
+                                <img src="../assets/svgs/logo.svg" width="32" height="42">
+                            </button>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu dropdown-menu-dark shadow-sm"
+                                aria-labelledby="profile_dropdown_menu">
+
+                                <li class="dropdown-item">Name</li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sign out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body Content -->
+                <div id="p_body_content" class="flex-grow-1">
+                    <!-- Container -->
+                    <div class="container d-flex align-items-center flex-column h-100 pt-5">
+                        <!-- Profile Pics -->
+                        <div id="p_profile_pics" class="shadow">
+
+                            <img src="../assets/svgs/logo.svg" width="130" height="150">
+
+                        </div>
+
+
+                        <!-- Email -->
+                        <h1 id="p_profile_name">Your Name</h1>
+
+                        <!-- Card -->
+                        <div class="card">
+                            <!-- Card Head -->
+                            <div class="card-header d-flex justify-content-between align-items-center p-2 ">
+                                <strong>Profile</strong>
+                                <!-- Edit Profile Btn -->
+                                <a href="edit_profile.html">
+                                    <button class="btn btn-success">Edit Profile</button>
+                                </a>
+                            </div>
+
+                            <!-- Form -->
+                            <form>
+                                <!-- Card Body -->
+                                <div class="card-body d-flex flex-column">
+                                    <!-- Name -->
+                                    <div class="p-menu">
+                                        <label for="name">Name</label>
+                                        <input class="form-control" id="name" name="name" value="Your Name" type="text"
+                                            disabled>
+                                    </div>
+
+                                    <!-- Location -->
+                                    <div class="p-menu">
+                                        <label for="location">Location</label>
+                                        <input class="form-control" id="location" name="location" value="Your Location"
+                                            type="text" disabled>
+                                    </div>
+
+                                    <!-- Bio -->
+                                    <div class="p-menu">
+                                        <label for="bio">Bio</label>
+                                        <textarea class="form-control" id="bio" name="bio" disabled>Your Bio</textarea>
+                                    </div>
+
+                                    <!-- Twitter Link -->
+                                    <div class="p-menu">
+                                        <label for="twitter">Twitter</label>
+                                        <input class="form-control" id="twitter" name="twitter" type="url"
+                                            value="https://domain.com/name" disabled>
+                                    </div>
+
+                                    <!-- Facebook Link -->
+                                    <div class="p-menu">
+                                        <label for="facebook">Facebook</label>
+                                        <input class="form-control" id="facebook" name="facebook" type="url"
+                                            value="https://domain.com/name" disabled>
+                                    </div>
+
+                                    <!-- Github Link -->
+                                    <div class="p-menu">
+                                        <label for="github">Github</label>
+                                        <input class="form-control" id="github" name="github" type="url"
+                                            value="https://domain.com/name" disabled>
+                                    </div>
+
+                                    <!-- Instagram Link -->
+                                    <div class="p-menu">
+                                        <label for="instagram">Instagram</label>
+                                        <input class="form-control" id="instagram" name="instagram" type="url"
+                                            value="https://domain.com/name" disabled>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ============CONTENT END================= -->
+        </div>
+        <!-- Import Jquery -->
+        <script src=" /node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+        </script>
+
+        <script src="../assets/js/toggle.js"></script>
+    </body>
+
+</html>

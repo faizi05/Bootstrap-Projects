@@ -1,0 +1,43 @@
+@use '../custom' as var;
+
+// Pofile body content style
+#p_body_content {
+  // Profile picture style
+  #p_profile_pics {
+    border: 2px solid rgba(var.$primary, 0.7);
+    padding: 1rem 2rem;
+    border-radius: 50%;
+  }
+
+  //   User name below profile picture style
+  #p_profile_name {
+    font-size: 1.3rem;
+    margin: 1.3rem 0;
+    font-weight: 500;
+  }
+
+  #choose_file {
+    padding-left: 6rem;
+  }
+  .card {
+    width: 50%;
+    // Card width 100% on medium or below devices otherwise 50% (center)
+    @include var.media-breakpoint-down(md) {
+      width: 100%;
+    }
+
+    // Form Fields
+    .card-body {
+      .p-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0.7rem 0;
+        input,
+        textarea {
+          width: 78%;
+        }
+      }
+    }
+  }
+}

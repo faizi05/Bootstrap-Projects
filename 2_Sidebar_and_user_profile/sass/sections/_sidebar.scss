@@ -1,0 +1,82 @@
+@use '../custom' as var;
+
+// Sidebar logo
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 0.5rem;
+  //   Hide logo on medium and below devices
+  a {
+    @include var.media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+  // hide logo when toggle btn clicked
+  .hide-logo {
+    display: none;
+    @include var.media-breakpoint-down(md) {
+      display: block;
+    }
+  }
+  //   Toggle icon
+  i {
+    font-size: 1.5rem;
+    color: var.$primary;
+    cursor: pointer;
+    transition: all 0.5s;
+    // Toggle icon when hover
+    &:hover {
+      transform: scale(1.5, 1.5);
+    }
+  }
+}
+//  Nav items div
+.c-nav-items {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  //  Each nav item style
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgba(#fff, 0.6);
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0.5rem;
+    transition: all 0.5s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+    // Each Nav item when hover
+    &:hover {
+      color: #fff;
+      font-weight: 600;
+      transform: scaleY(1.1);
+    }
+
+    //  Icon in nav item
+    i {
+      font-size: 1.5rem;
+      padding-right: 0.7rem;
+    }
+  }
+  //  Github link style
+  #github_link {
+    font-weight: 600;
+    color: #fff;
+  }
+}
+
+// Nav active color
+.nav-active {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+// Change font size of all icon on medium and below devices
+@include var.media-breakpoint-down(md) {
+  i {
+    font-size: 1.8rem;
+  }
+}
