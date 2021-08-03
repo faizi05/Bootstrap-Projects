@@ -2,7 +2,7 @@
 
 Welcome to the Bootstrap-Projects repository.
 
-In this repository a collection of bootstrap projects, table of content table of contents in order for you to navigate to the sections that matter the most to you and screenshot section are included.
+In this repository a collection of bootstrap projects, table of contents in order for you to navigate to the sections that matter the most to you and screenshot section are included.
 
 `Best of Luck`
 
@@ -16,7 +16,7 @@ Follow these instructions to build and run the project.
 $ https://github.com/faiziiii05/Bootstrap-Projects
 ```
 
-2. Navigate to the project folder that word best for you
+2. Navigate to the project folder that work best for you
 
 3. Enjoy
 
