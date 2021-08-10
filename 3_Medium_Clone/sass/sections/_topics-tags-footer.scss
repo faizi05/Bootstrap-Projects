@@ -1,0 +1,53 @@
+@use '../variables' as var;
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+#tags-section {
+  // Postion sticky
+  position: sticky;
+  top: 5rem;
+  height: 20rem;
+  // Remove padding on main tags div on smaller width devices
+  @include media-breakpoint-down(lg) {
+    padding: 0 !important;
+    position: static;
+    height: auto;
+  }
+
+  //   Tags style
+  #tags {
+    //   Remove margin or add padding on tags sub div on smaller width devices
+    @include media-breakpoint-down(lg) {
+      margin: 0 !important;
+      padding: 0 3rem;
+    }
+    border-bottom: 1px solid var.$border-light-color;
+    // see all topics link
+    .all-topics {
+      display: block;
+      text-decoration: none;
+      color: var.$green-color;
+      &:hover {
+        color: var.$green-color;
+      }
+    }
+  }
+
+  //  Footer Style
+  #footer {
+    //   DIsplay none on smaller width devices
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+    .footer-link {
+      text-decoration: none;
+      color: var.$tag-line-color;
+      padding: 0.2rem 0.5rem;
+      margin: 0 0.3rem;
+      &:hover {
+        color: var.$tag-line-color;
+      }
+    }
+  }
+}

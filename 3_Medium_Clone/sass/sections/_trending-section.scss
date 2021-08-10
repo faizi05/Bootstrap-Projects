@@ -1,0 +1,20 @@
+@use '../variables' as var;
+// Trending section
+#trending {
+  border-bottom: 1px solid var.$border-light-color;
+  // Logo and heading
+  .trending-heading {
+    display: flex;
+    align-items: center;
+    // Profile Picture Logo
+    i {
+      border-radius: 50%;
+      border: 2px solid var.$border-dark-color;
+      font-size: 2rem;
+    }
+  }
+  //   Serial Number styles
+  .sr-no {
+    color: var.$sr-no-color;
+  }
+}

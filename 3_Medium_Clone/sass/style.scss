@@ -1,0 +1,14 @@
+@use 'custom'; // custom bootstrap file
+@use 'variables'; // variables file
+
+@use 'global-style'; // some common global styl file
+
+// Sections
+@use 'sections/navbar'; // Navbar style file
+@use 'sections/header-section'; // Header section style file
+@use 'sections/trending-section'; // Trending section style file
+@use 'sections/content'; // main posts style file
+@use 'sections/topics-tags-footer'; // right tags/footer style file
+
+// Components
+@use 'components/buttons';

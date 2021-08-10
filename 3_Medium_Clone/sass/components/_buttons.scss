@@ -1,0 +1,54 @@
+@use '../custom' as customs;
+@use '../variables' as var;
+
+// Navbar get started Button
+.rounded-button {
+  background-color: customs.$dark;
+  border-radius: 5rem;
+  color: #fff;
+  padding: 0.4rem 0.9rem;
+  &:hover {
+    color: #fff;
+  }
+}
+
+// Header Button
+.rounded-button-inverse {
+  background-color: #fff;
+  border-radius: 5rem;
+  color: customs.$dark;
+  border-color: customs.$dark;
+  padding: 0.4rem 0.9rem;
+  &:hover {
+    color: customs.$dark;
+  }
+}
+
+//  Posts Tags Button
+.rounded-tag-buttons {
+  background-color: var.$tag-button-back-color;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.125rem 0.5rem;
+  color: var.$tag-line-color;
+  &:hover {
+    color: var.$tag-line-color;
+  }
+  //   Hide on smaller width devices
+  @include customs.media-breakpoint-down(md) {
+    display: none;
+  }
+}
+
+// Tpoics button
+.topics-button {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid var.$border-light-color;
+  padding: 0.4rem 0.7rem;
+  margin: 0.4rem 0.2rem;
+  color: var.$tag-line-color;
+  &:hover {
+    color: var.$tag-line-color;
+  }
+}

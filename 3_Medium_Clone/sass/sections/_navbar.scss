@@ -1,0 +1,43 @@
+@use '../variables' as var;
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.navbar {
+  border-bottom: 1px solid var.$border-dark-color;
+  padding-right: 4rem;
+  transition: background-color 0.5s linear;
+  @include media-breakpoint-down(lg) {
+    padding-right: 1rem;
+  }
+  //   Logo
+  .navbar-brand {
+    padding-left: 4rem;
+    @include media-breakpoint-down(lg) {
+      padding-left: 1rem;
+    }
+  }
+  //   Nav-items
+  #nav-items {
+    //   Hide nav-item on smaller width devices
+    @include media-breakpoint-down(lg) {
+      display: none !important;
+    }
+    .nav-link {
+      color: var.$nav-color;
+    }
+  }
+
+  #get-started-button {
+    transition: background-color 0.5s linear;
+  }
+}
+
+//  Classes add through JS on scroll
+.white-navbar {
+  background-color: #fff !important;
+}
+
+.get-started-green-btn {
+  background-color: var.$green-color !important;
+}

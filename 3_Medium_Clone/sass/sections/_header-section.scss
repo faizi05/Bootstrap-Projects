@@ -1,0 +1,18 @@
+@use '../variables' as var;
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+// header section
+#header {
+  border-bottom: 1px solid var.$border-dark-color;
+  span {
+    display: block;
+  }
+  //   Hide image on smaller width devices
+  @include media-breakpoint-down(xl) {
+    .img-div {
+      display: none;
+    }
+  }
+}

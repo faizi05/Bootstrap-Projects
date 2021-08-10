@@ -1,0 +1,22 @@
+@use 'variables' as var;
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins"; // for breakpoint mixin
+
+.tag-line {
+  color: var.$tag-line-color;
+}
+
+// Username style
+.name-font {
+  font-size: 0.813rem;
+  font-weight: 600;
+}
+
+// Post Heading Style
+.post-heading {
+  font-size: 1.3rem;
+  @include media-breakpoint-down(lg) {
+    font-size: calc(0.5rem + 1.45vw);
+  }
+}
