@@ -27,7 +27,12 @@ $ https://github.com/faiziiii05/Bootstrap-Projects
    - This project contains a responsive sign-in and sign-up page using Bootstrap 5 and SCSS.
 
 2. [Sidebar_and_UserProfile](/2_Sidebar_and_user_profile/)
-   - This project contains a responsive sidebar and a user profile page using bootstrap and sass. In non-editing mode all the fields are disabled. The user will be able to edit all the fields as soon as the user presses the edit profile button. some bootstrap variables like `$primary` and `$dark` are customized so we can say that it's a customized bootstrap project ;)
+
+   - This project contains a responsive sidebar and a user profile page using bootstrap and sass. In non-editing mode all the fields are disabled. The user will be able to edit all the fields as soon as the user presses the edit profile button. some bootstrap variables like `$primary` and `$dark` are customized so we can say that it's a customized bootstrap project
+
+3. [Medium Clone](/3_Medium_Clone/)
+
+   - This project is a clone of medium.com in bootstrap 5 and SCSS.
 
 # Screenshots
 
@@ -38,6 +43,10 @@ $ https://github.com/faiziiii05/Bootstrap-Projects
 2. [Sidebar_and_UserProfile](/2_Sidebar_and_user_profile/)
 
    - ![Sidebar_and_user_profile](/screenshots/2_Sidebar_and_user_profile/2_Sidebar_and_user_profile.png)
+
+3. [Medium Clone](/3_Medium_Clone/)
+
+   - ![Medium Clone](/screenshots/3_Medium_Clone/3_Medium_Clone.png)
 
 # Contributing
 
